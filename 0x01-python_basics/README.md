@@ -1,28 +1,29 @@
-The Python tutorial
-doctest — Test interactive Python examples until 26.2.3.7. Warnings included and doctest – Testing through documentation.
-Learn to Program.
-A simple introduction to Object Oriented Programming without going into much detail:
-Read everything until the paragraph “Inheritance” excluded
-You do NOT have to learn about class attributes, classmethod and staticmethod yet
-Object-Oriented Programming. Please be careful: in most of the following paragraphs, the author shows things the way you should not use or write a class, in order to make you better understand some concepts and how everything works in Python 3. Make sure you read everything. Read only the following paragraphs:
-General Introduction
-First-class Everything
-A Minimal Class in Python
-Attributes
-You NOT have to learn about class attributes
-Methods
-The __init__ Method
-Data Abstraction, Data Encapsulation, and Information Hiding
-Public- Protected- and Private Attributes
-Properties vs. Getters and Setters
-TL;DR; - A good wrap-up video about everything you need to know for this project: Learn to Program 9 : Object Oriented Programming
-TL;DR;
+## Python Basics
 
-install it: sudo apt-get install python3-pep8 (version 1.7)
-alternative install using pip3 (Python3 version of pip): Install
-If /usr/bin/pep8 doesn’t exist, pep8 is located here /usr/local/lib/python3.4/dist-packages/pep8.py or /usr/lib/python3.4/dist-packages/pep8.py (cp /usr/local/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8 or cp /usr/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8)
-use it: pep8 file.py
-… and of course, last but not least: man python3
+### Read
+- [The Python tutorial](https://intranet.hbtn.io/rltoken/418zQF8ewKO_tymo-_PBPQ)
+- [doctest — Test interactive Python examples](https://intranet.hbtn.io/rltoken/zfmL68EURAWk8VMMbypxwQ) until 26.2.3.7. Warnings included and [doctest – Testing through documentation](https://intranet.hbtn.io/rltoken/OBO6CzGpSXQacPhWOIK02w).
+- [Learn to Program](https://intranet.hbtn.io/rltoken/S3zxPMaP9n6PjvGvnaux3g).
+- A simple introduction to [Object Oriented Programming](https://intranet.hbtn.io/rltoken/vveuSPwzVgp5yehnuqWFTA) without going into much detail:
+   * Read everything until the paragraph “Inheritance” excluded
+   * You do NOT have to learn about class attributes, ```classmethod``` and ```staticmethod``` yet
+- [Object-Oriented Programming](https://intranet.hbtn.io/rltoken/a4JCHtpcI1SbRbeMDVCXXg). Please be careful: in most of the following paragraphs, the author shows things the way you should not use or write a class, in order to make you better understand some concepts and how everything works in Python 3. Make sure you read everything. Read only the following paragraphs:
+   * General Introduction
+   * First-class Everything
+   * A Minimal Class in Python
+   * Attributes
+   * You NOT have to learn about class attributes
+   * Methods
+   * The ```__init__``` Method
+   * Data Abstraction, Data Encapsulation, and Information Hiding
+   * Public- Protected- and Private Attributes
+- [Properties vs. Getters and Setters](https://intranet.hbtn.io/rltoken/O1RCsEihDn3XJdyh8b3_mQ)
+- A good wrap-up video about everything you need to know for this project: [Learn to Program 9 : Object Oriented Programming](https://intranet.hbtn.io/rltoken/lZjJYTrYMStEodEuMweWpA)
+- install it: ```sudo apt-get install python3-pep8``` (version 1.7)
+   * alternative install using ```pip3``` (Python3 version of pip): [Install](https://intranet.hbtn.io/rltoken/YuuQ7vcALiDX9RLouA9nrQ)
+   * If ```/usr/bin/pep8 doesn’t exist, ```pep8``` is located here ```/usr/local/lib/python3.4/dist-packages/pep8.py``` or ```/usr/lib/python3.4/dist-packages/pep8.py``` (```cp /usr/local/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8``` or ```cp /usr/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8```)
+- use it: pep8 file.py
+… and of course, last but not least: ```man python3```
 
 What you should learn from this project
 At the end of this project you are expected to be able to explain to anyone, without the help of Google:

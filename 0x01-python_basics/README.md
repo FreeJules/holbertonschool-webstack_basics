@@ -21,7 +21,7 @@
 - A good wrap-up video about everything you need to know for this project: [Learn to Program 9 : Object Oriented Programming](https://intranet.hbtn.io/rltoken/lZjJYTrYMStEodEuMweWpA)
 - install it: ```sudo apt-get install python3-pep8``` (version 1.7)
    * alternative install using ```pip3``` (Python3 version of pip): [Install](https://intranet.hbtn.io/rltoken/YuuQ7vcALiDX9RLouA9nrQ)
-   * If ```/usr/bin/pep8 doesn’t exist, ```pep8``` is located here ```/usr/local/lib/python3.4/dist-packages/pep8.py``` or ```/usr/lib/python3.4/dist-packages/pep8.py``` (```cp /usr/local/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8``` or ```cp /usr/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8```)
+   * If ```/usr/bin/pep8``` doesn’t exist, ```pep8``` is located here ```/usr/local/lib/python3.4/dist-packages/pep8.py``` or ```/usr/lib/python3.4/dist-packages/pep8.py``` (```cp /usr/local/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8``` or ```cp /usr/lib/python3.4/dist-packages/pep8.py /usr/bin/pep8 && chmod u+x /usr/bin/pep8```)
 - use it: pep8 file.py
 … and of course, last but not least: ```man python3```
 

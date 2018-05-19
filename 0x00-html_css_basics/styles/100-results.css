@@ -32,20 +32,28 @@ img {
     object-fit: cover;
 }
 
-#full_star, #half_star, #no_star {
-    padding: 4px;
-    color:white;
+.star_score {
+    height: 15px;
+    padding-bottom: 6px;
+    width: 130px;
 }
 
-#full_star {
+.full_star, .half_star, .no_star {
+    padding: 4px;
+    border-radius: 4px;
+    color: white;
+    display: inline;
+}
+
+.full_star {
     background-color: orangered;
 }
 
-#half_star {
+.half_star {
     background-color: orange;
 }
 
-#no_star {
+.no_star {
     background-color: lightgray;
 }
 

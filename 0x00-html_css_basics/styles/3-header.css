@@ -1,0 +1,67 @@
+@charset "UTF-8";
+header {
+    padding-top: 10px;
+    background-color: #FF0000;
+    height: 60px;
+    width: 100%;
+}
+
+.container {
+    background-color: #00FF00;
+    height: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+}
+
+.logo {
+    background-color: #0000FF;
+    height: 100%;
+    width: 120px;
+    float: left;
+}
+
+a {
+    width: inherit;
+    height: inherit;
+}
+
+.search {
+    background-color: #550000;
+    position: absolute;
+    height: 40px;
+    left: 140px;
+    right: 220px;
+    margin: 5px 0px 5px 0px;
+}
+
+.search div{
+    display: inline-block;
+}
+
+.user {
+    background-color: #005500;
+    height: 100%;
+    width: 200px;
+    float: right;
+}
+
+.find {
+    background-color: #005555;
+    height: 100%;
+    width: 45%;
+}
+
+.location {
+    background-color: #009999;
+    height: 100%;
+    width: 45%;
+}
+
+.action {
+    background-color: #119911;
+    height: 100%;
+    width: 10%;
+}

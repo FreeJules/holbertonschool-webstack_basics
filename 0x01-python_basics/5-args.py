@@ -2,8 +2,8 @@
 from sys import argv
 
 
-total_args = len(argv)
 if __name__ == "__main__":
+    total_args = len(argv)
     if total_args == 1:
         print('0 arguments.')
     elif total_args == 2:

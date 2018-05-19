@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-import sys
+from sys import argv
 
 
-total_args = len(sys.argv)
+total_args = len(argv)
 if __name__ == "__main__":
     if total_args == 1:
         print('0 arguments.')
@@ -11,4 +11,4 @@ if __name__ == "__main__":
     else:
         print('{} arguments:'.format(total_args - 1))
     for arg in range(1, total_args):
-        print ('{}: {}'.format(arg, sys.argv[arg]))
+        print ('{}: {}'.format(arg, argv[arg]))

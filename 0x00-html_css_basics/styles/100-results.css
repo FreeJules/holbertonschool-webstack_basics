@@ -1,0 +1,89 @@
+@charset "UTF-8";
+#container {
+    max-width: 1000px;
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 300px;
+    background-color: #FFFFFF;
+    position: relative;
+    min-height: 110px;
+    margin: 10px;
+    border: #CCCCCC solid 1px;
+    border-radius: 10px;
+    display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    border-radius: 4px;
+    height: 90px;
+    width: 90px;
+    margin: 10px 0 0 10px;
+    object-fit: cover;
+}
+
+#full_star, #half_star, #no_star {
+    padding: 4px;
+    color:white;
+}
+
+#full_star {
+    background-color: orangered;
+}
+
+#half_star {
+    background-color: orange;
+}
+
+#no_star {
+    background-color: lightgray;
+}
+
+.name_stars_cusine_div {
+    max-height: 100px;
+    margin: 10px;
+    grid-area: name_stars_cusine;
+    padding-left: 0;
+}
+
+h1 {
+    font-size: 20px;
+    max-width:100%;
+    line-height: 1;
+    margin: 10px 0 10px 0;
+}
+
+h2 {
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+#reviews, #price {
+    color: darkgray;
+    display: inline;
+    margin: 10px 0 10px 0;
+}
+
+#price {
+    padding-left: 25px;
+}
+
+#cusine {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#contact {
+    padding-left: 15px;
+}

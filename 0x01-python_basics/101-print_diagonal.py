@@ -2,5 +2,5 @@
 def print_diagonal(n):
     if n > 0:
         for i in range(n):
-            print(i*' ', '\\', (n-i)*' ')
+            print('{}{}'.format(i*' ', '\\'))
     print()

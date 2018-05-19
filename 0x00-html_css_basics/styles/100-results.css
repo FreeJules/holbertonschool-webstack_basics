@@ -76,22 +76,22 @@ h2 {
     line-height: 1.7;
 }
 
-#reviews, #price {
+.reviews, .price {
     color: darkgray;
     display: inline;
     margin: 10px 0 10px 0;
 }
 
-#price {
+.price {
     padding-left: 25px;
 }
 
-#cusine {
+.cusine {
     color: red;
     font-size: 14px;
     margin-top: 5px;
 }
 
-#contact {
+.contact {
     padding-left: 15px;
 }

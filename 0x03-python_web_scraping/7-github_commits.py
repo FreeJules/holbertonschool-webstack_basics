@@ -8,10 +8,6 @@ if __name__ == '__main__':
     url = 'https://api.github.com/repos/' + owner + '/' + repo + '/commits'
     r = requests.get(url)
     j = r.json()
-    commiters = {}
     for i in range(10):
-        name_req_url = j[i].get('committer').get('url')
-        if name_req_url not in commiters:
-            name_req = requests.get(name_req_url)
-            commiters[name_req_url] = name_req.json().get('name')
-        print('{}: {}'.format(j[i].get('sha'), commiters[name_req_url]))
+        print('{}: {}'.format(j[i].get('sha'), j[i].get('commit')
+                              .get('author').get('name')))

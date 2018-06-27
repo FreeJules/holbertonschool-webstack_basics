@@ -1,24 +1,24 @@
 ## Javascript Basics
 
 ### Read
-JavaScript Fundamentals, these chapters:
-Writing JavaScript Code
-Variables
-Data Types
-Operators
-Operator Precedence
-Controlling Program Flow
-Functions
-Objects and Arrays
-Intrinsic Objects
-Module patterns
-var, let and const
-Javascript Tutorial
-JavaScript object basics
-Object-oriented JavaScript read all examples!
-Object prototypes
-Inheritance in JavaScript
-Closures
+- [JavaScript Fundamentals](https://intranet.hbtn.io/rltoken/cZfYtG9JG3TAJtCZRHco7Q), these chapters:
+ * [Writing JavaScript Code](https://intranet.hbtn.io/rltoken/KIUZ3m_y84I51m4Su5TDLA)
+ * [Variables](https://intranet.hbtn.io/rltoken/8CCbYTFJM6XHD7TV7x-Ueg)
+ * [Data Types](https://intranet.hbtn.io/rltoken/gRjCNzxVcqvedi_Z3h5s6Q)
+ * [Operators](https://intranet.hbtn.io/rltoken/v-IBPcFuH4nc0nNDO2Leug)
+ * [Operator Precedence](https://intranet.hbtn.io/rltoken/rG_Q1IxU4UAZ1iIIoLSwFg)
+ * [Controlling Program Flow](https://intranet.hbtn.io/rltoken/A3Mut7GFfqjU7XuABPMA8Q)
+ * [Functions](https://intranet.hbtn.io/rltoken/Zo66aLYMydXfVyl2j1Uovw)
+ * [Objects and Arrays](https://intranet.hbtn.io/rltoken/1enn3ys5o2hkD2CwRhLP5g)
+ * [Intrinsic Objects](https://intranet.hbtn.io/rltoken/SxoQxS4leDY4W-M18SRkTA)
+- [Module patterns](https://intranet.hbtn.io/rltoken/tWifRTaTojDtZN3wRnAmng)
+- [var, let and const](https://intranet.hbtn.io/rltoken/U-c9yrFTroQI6hnnFZaiFg)
+- [Javascript Tutorial](https://intranet.hbtn.io/rltoken/k-Y2iFdtXl0oBkPbiDD1Jg)
+- [JavaScript object basics](https://intranet.hbtn.io/rltoken/MrfQfAzu4i-nnLWcrArtgg)
+- [Object-oriented JavaScript](https://intranet.hbtn.io/rltoken/E6pL5cYusrHlUI81IfVyYg) read all examples!
+- [Object prototypes](https://intranet.hbtn.io/rltoken/71lh2IKIu-hIzKSPZ7RCrg)
+- [Inheritance in JavaScript](https://intranet.hbtn.io/rltoken/65k4ZxF0nP5xIgD453I8oA)
+- [Closures](https://intranet.hbtn.io/rltoken/VpeRBq8Njj0xWKGW3k9RxA)
 
 ### What you should learn from this project
 

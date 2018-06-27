@@ -2,7 +2,11 @@
 let fs = require('fs');
 let fileName = process.argv[2];
 let content = process.argv[3];
-if (isNaN(content)) { content = ''; }
+if (isNaN(content)) {
+  content = '';
+}
 fs.writeFile(fileName, content, 'utf8', function (err) {
-  if (err) { console.log(err); }
+  if (err) {
+    console.log(err);
+  }
 });
